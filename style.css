@@ -34,6 +34,7 @@ top header css
   overflow: hidden;
 }
 .mini_menu {
+    padding-top: 5px;
   width: 70%;
   float: left;
 }
@@ -59,7 +60,7 @@ top header css
   width: 1px;
 }
 .mini_menu ul li:last-child:after {
- display: none;
+  display: none;
 }
 .mini_menu ul li a {
   color: white;
@@ -76,4 +77,26 @@ top header css
 .search_area {
   float: right;
   width: 30%;
+}
+.search_area form {
+  background-color: white;
+  border-radius: 25px;
+  float: right;
+  padding: 2%;
+  max-width: 210px;
+  width: 96%;
+}
+.search_area input {
+  border: 0px solid;
+  width: 75%;
+  padding: 1%;
+  float: left;
+  color: black;
+}
+.search_area input[type="submit"] {
+ background: url(img/search.png);
+ background-repeat: no-repeat;
+ background-position: right;
+  width: 23%;
+  
 }
