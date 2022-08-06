@@ -1,0 +1,58 @@
+/**********************************
+common css
+************************************/
+body {
+  color: #666666;
+  font-size: 16px;
+  font-family: Georgia, sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 96%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/**********************************
+top header css
+************************************/
+.header_area {
+  width: 100%;
+  clear: both;
+}
+#top_header_area {
+  background-color: #ba2e1f;
+  width: 100%;
+  padding: 15px;
+}
+.inner_top_header {
+  overflow: hidden;
+}
+.mini_menu {
+  width: 70%;
+  float: left;
+}
+.mini_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  text-align: left;
+}
+.mini_menu ul li {
+ margin-right: 10px;
+  display: inline-block;
+}
+.mini_menu ul li a{
+ margin-right: 10px;
+  display: inline-block;
+}
+.search_area {
+  float: right;
+  width: 30%;
+}
