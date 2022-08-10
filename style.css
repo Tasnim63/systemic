@@ -531,11 +531,12 @@ footer css
   background: #f2f2f2;
   padding: 20px 0;
 }
-#copyright_section{
-  background: #f2f2f2;
-  padding: 20px 0;
+.inner_copyright {
+  overflow: hidden;
 }
-
+.left_copyright{
+  
+}
 
 
 
