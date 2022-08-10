@@ -16,8 +16,23 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
-
+/* .alignleft {
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.alignleft {
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+  margin-bottom: 15px;
+} */
 /**********************************
 top header css
 ************************************/
@@ -272,14 +287,51 @@ top header css
   top: 50%;
   left: 50%;
   transform: translate(-50%, 50%);
-
 }
-.slider_caption h1{
-color: #ba2e1f;
-font-size: 35px;
+.slider_caption h1 {
+  color: #ba2e1f;
+  font-size: 35px;
 }
 .item img {
   width: 100%;
   object-fit: cover;
   width: 100%;
+}
+/***************hero area****************** */
+#hero_area{
+  background: #fff;
+  margin: 0;
+  padding:0;
+}
+.inner_hero {
+ 
+  display: flex;
+  align-items: center;
+}
+.inner_hero img{
+  height: 400px;
+}
+.inner_hero_content{
+margin-left: 15px;
+}
+.inner_hero_content h1{
+  font-size: 50px;
+  color: #000000;
+  
+ line-height: 1rem;
+
+}
+.inner_hero p{
+font-size: 16px;
+}
+.inner_hero a{
+float: right;
+text-transform: uppercase;
+color: #b9011d;
+text-decoration: none;
+}
+.inner_hero a:hover{
+
+color: #171616;
+
 }
