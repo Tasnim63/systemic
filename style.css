@@ -298,40 +298,95 @@ top header css
   width: 100%;
 }
 /***************hero area****************** */
-#hero_area{
+#hero_area {
   background: #fff;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 .inner_hero {
- 
   display: flex;
   align-items: center;
 }
-.inner_hero img{
+.inner_hero img {
   height: 400px;
 }
-.inner_hero_content{
-margin-left: 15px;
+.inner_hero_content {
+  margin-left: 15px;
 }
-.inner_hero_content h1{
+.inner_hero_content h1 {
   font-size: 50px;
   color: #000000;
-  
- line-height: 1rem;
 
+  line-height: 1rem;
 }
-.inner_hero p{
-font-size: 16px;
+.inner_hero p {
+  font-size: 16px;
 }
-.inner_hero a{
-float: right;
-text-transform: uppercase;
-color: #b9011d;
-text-decoration: none;
+.inner_hero a {
+  float: right;
+  text-transform: uppercase;
+  color: #b9011d;
+  text-decoration: none;
 }
-.inner_hero a:hover{
+.inner_hero a:hover {
+  color: #171616;
+}
+/**********************************
+work css
+************************************/
+#work_area {
+  background: #f2f2f2;
+  padding: 45px 0;
+}
+.inner_work {
+  overflow: hidden;
+}
+.child_work {
+  width: 32%;
+  float: left;
+  margin: 0 1% 10px;
+}
+.child_work h2 {
+  font-size: 26px;
+  font-weight: normal;
+  color: #333333;
+}
+.child_work p {
+  font-size: 14px;
+  font-weight: normal;
+  color: #878787;
+}
+.child_work a {
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #b92d1f;
+  clear: both;
+  float: right;
+  display: inline-block;
+}
 
-color: #171616;
-
+.about_area {
+  margin-left: 0;
+}
+.about_area img {
+  border: 1px solid #e9e9e9;
+  padding: 5px;
+  display: block;
+  margin-bottom: 15px;
+}
+.service_area {
+}
+.child_service{
+width: 100%;
+overflow: hidden;
+margin-bottom: 15px;
+}
+.child_service .service_img{
+width: 100%;
+overflow: hidden;
+margin-bottom: 15px;
+}
+.testimonial_area {
+  margin-right: 0;
 }
