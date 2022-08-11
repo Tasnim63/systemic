@@ -591,7 +591,7 @@ footer css
   }
 
   /* ************moblile screen */
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 600px) {
     #top_header_area {
       background-color: #ba2e1f;
       width: 100%;
