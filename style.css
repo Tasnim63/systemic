@@ -417,7 +417,7 @@ work css
   overflow: hidden;
 }
 .child_testimonal h3 {
-  background-image: url(img/commets-removebg-preview\ \(1\).png);
+  background-image: url(img/conmments.png);
   color: #989898;
   font-size: 16px;
   font-weight: bold;
@@ -487,6 +487,7 @@ footer css
 .child_footer li {
   display: block;
   border-bottom: 1px solid #333333;
+  padding-bottom: 8px;
 }
 .child_footer li:last-child {
   border-bottom: none;
@@ -502,49 +503,162 @@ footer css
 .child_footer input {
   width: 96%;
   background: #f2f2f2;
-border: 0px solid;
-padding: 10px  2%;
-border-radius: 10px;
-margin-bottom: 10px;
+  border: 0px solid;
+  padding: 10px 2%;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 .child_footer textarea {
   width: 96%;
   background: #f2f2f2;
-border: 0px solid;
-padding: 10px  5%;
-border-radius: 10px;
-margin-bottom: 10px;
+  border: 0px solid;
+  padding: 10px 5%;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
-.child_footer input[type="submit"]{
+.child_footer input[type="submit"] {
   width: 80px;
   color: #ba2e1f;
   cursor: pointer;
 }
 .child_footer input[type="submit"]:hover {
-background: #f2f2f2;
-color:#ba2e1f;
+  background: #f2f2f2;
+  color: #ba2e1f;
 }
 /**********************************
 footer css
 ************************************/
-#copyright_section{
+#copyright_section {
   background: #f2f2f2;
   padding: 20px 0;
 }
 .inner_copyright {
   overflow: hidden;
 }
-.left_copyright{
-  
+.inner_copyright p {
+  margin: 0;
+  font-size: 14px;
+}
+.left_copyright {
+  float: left;
+  width: 60%;
+}
+.right_copyright {
+  text-align: right;
+  float: right;
+  width: 40%;
 }
 
+/* tablat layout  */
+@media only screen and (max-width: 991px) {
+  #top_header_area {
+    background-color: #ba2e1f;
+    width: 100%;
+    padding: 15px 0;
+  }
+  .inner_header {
+    padding: 15px 0;
+  }
+  .social_area {
+    padding-top: 14px;
+  }
+  .mini_menu {
+    width: 50%;
+    float: left;
+  }
+  .container {
+    width: 98%;
+  }
+  .social_area {
+    max-width: 400px;
+  }
+  .inner_menu {
+    background: none;
+  }
+  .inner_menu {
+    background: none;
+    min-height: auto;
+  }
+  .inner_menu::after {
+    display: none;
+  }
+  .mean-container .mean-nav {
+    width: 80%;
+    margin-top: 0;
+  }
+  .inner_hero_content h1 {
+    font-size: 30px;
+  }
 
+  /* ************moblile screen */
+  @media only screen and (max-width: 700px) {
+    #top_header_area {
+      background-color: #ba2e1f;
+      width: 100%;
+      padding: 15px 0;
+    }
+    .mini_menu {
+      width: 100%;
+      text-align: center;
+    }
+    .mini_menu ul {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .search_area,
+    .logo_area {
+      width: 250px;
+      float: none;
 
+      margin: 0 auto;
+    }
 
+    .social_area {
+      width: 270px;
+      float: none;
 
+      margin: 0 auto;
+    }
 
+    .inner_hero {
+      display: flex;
 
+      flex-direction: column;
+    }
 
+    .inner_hero_content {
+      margin-left: 15px;
+      text-align: center;
+      margin-top: 20px;
+    }
 
+    #work_area,
+    .child_footer {
+      padding: 1%;
+      margin: 0 1% 10px;
+      width: 96%;
+      float: left;
+    }
+  }
+  .child_work {
+    width: 98%;
+    float: left;
+    margin: 0 1% 10px;
+  }
 
-
+  .child_footer {
+    padding: 1%;
+    margin: 0 1% 10px;
+    width: 96%;
+    float: left;
+  }
+  .child_blog a {
+    text-decoration: none;
+    float: left;
+  }
+  .left_copyright,
+  .right_copyright {
+    width: 100%;
+    text-align: center;
+  }
+}
